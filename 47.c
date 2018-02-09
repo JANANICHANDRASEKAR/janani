@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 int a,i,min,max;
 int b[10];
@@ -25,5 +25,6 @@ max=b[i];
 }
 }
 printf("%d",max);
+  return0;
 }
 
